@@ -1,0 +1,13 @@
+---
+title: "Zotero werkcollege"
+author:
+  - name: Ronald Visser
+    orcid: 0000-0001-6966-1729
+    email: r.m.visser@saxion.nl
+    affiliation: 
+      - name: Saxion University of Applied Sciences
+        city: Deventer
+        country: Netherlands
+---
+
+## Quarto
