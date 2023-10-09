@@ -6,33 +6,45 @@ website:
   title: "Met Zotero leren werken"
   site-url: "...."
   repo-url: https://github.com/RonaldVisser/Zotero_WC
-  repo-actions: [edit, issue]
+  repo-actions: [issue]
 
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; CC-By Ronald Visser, 2022"
+    left: "&copy; CC-By Ronald Visser, 2023"
 
   sidebar:
     pinned: true
     align: center
     tools:
-      - icon: globe
-        href: https://openscapes.org
-        text: "Openscapes.org"
       - icon: github
-        href: https://github.com/openscapes/quarto-website-tutorial
-        text: "Quarto website tutorial"
-      - icon: twitter
-        href: https://twitter.com/openscapes
-        text: "Openscapes Twitter"
+        href: https://github.com/RonaldVisser/Zotero_WC
+        text: "Github repository van deze website"
+      - icon: mastodon
+        href: https://akademienl.social/@RonaldVisser
+        text: "Mastodon"
 
     style: "docked"
     search: true
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Welcome
-      - about.qmd
+        text: Welkom
+      - href: install.qmd
+        text: Installatie
+      - href: zotero_start.qmd
+        text: De eerste stappen
+      - href: zotero_add.qmd
+        text: Gegevens invoegen/opslaan
+      - href: zotero_references.qmd
+        text: Bronvermeldingen en literatuurlijst
+      - href: zotero_organize_library.qmd
+        text: Organiseren van jouw bibliotheek in Zotero
+      - href: zotero_research_tool.qmd
+        text: Onderzoek met Zotero
+      - href: zotero_online.qmd
+        text: Online werken met Zotero
+      - href: about.qmd
+        text: Over deze website
 
 
 
@@ -40,8 +52,7 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
-      dark: [cosmo, theme-dark.scss]
+      light: [theme]
     code-copy: true
     code-overflow: wrap
     toc: true

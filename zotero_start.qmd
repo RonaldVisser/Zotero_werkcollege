@@ -1,0 +1,26 @@
+---
+title: "Zotero: de eerste stappen"
+editor: visual
+author:
+  - name: Ronald Visser
+    orcid: 0000-0001-6966-1729
+    email: r.m.visser@saxion.nl
+    affiliation: 
+      - name: Saxion University of Applied Sciences
+        city: Deventer
+        country: Netherlands
+---
+
+Na de laatste stap van de installatie zal Zotero automatisch opstarten als je op *Finish* hebt gedrukt, zo niet start Zotero op. De eerste keer zal Zotero er als volgt uitzien (en bij opstarten worden de plugins voor Word automatisch geïnstalleerd):
+
+![](images/Zotero_start_1.png)
+
+Er staat nog niets in het programma, maar belangrijk om te weten is dat het programma is ingedeeld in de volgende drie kolommen:
+
+-   Bibliotheek
+
+-   Bronnen
+
+-   Informatie over een bron
+
+![](images/Zotero_start_2.png)

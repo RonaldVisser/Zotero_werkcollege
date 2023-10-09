@@ -8,7 +8,7 @@
 
 <meta name="author" content="Ronald Visser">
 
-<title>Met Zotero leren werken - Zotero werkcollege</title>
+<title>Met Zotero leren werken - Zotero gebruiken voor bibliografische werkzaamheden: bronvermeldingen en literatuurlijst</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./install.html" rel="next">
+<link href="./zotero_organize_library.html" rel="next">
+<link href="./zotero_add.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Zotero werkcollege</h1>
+      <h1 class="quarto-secondary-nav-title">Zotero gebruiken voor bibliografische werkzaamheden: bronvermeldingen en literatuurlijst</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -98,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Welkom</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Welkom</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -118,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./zotero_references.html" class="sidebar-item-text sidebar-link">Bronvermeldingen en literatuurlijst</a>
+  <a href="./zotero_references.html" class="sidebar-item-text sidebar-link active">Bronvermeldingen en literatuurlijst</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -150,7 +151,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#zotero" id="toc-zotero" class="nav-link active" data-scroll-target="#zotero">Zotero</a></li>
+  <li><a href="#plugin-voor-word" id="toc-plugin-voor-word" class="nav-link active" data-scroll-target="#plugin-voor-word">Plugin voor Word</a></li>
+  <li><a href="#invoegen-van-een-verwijzing-in-word" id="toc-invoegen-van-een-verwijzing-in-word" class="nav-link" data-scroll-target="#invoegen-van-een-verwijzing-in-word">Invoegen van een verwijzing in Word</a></li>
+  <li><a href="#stijl-aanpassen" id="toc-stijl-aanpassen" class="nav-link" data-scroll-target="#stijl-aanpassen">Stijl aanpassen</a></li>
+  <li><a href="#nieuwe-stijl-installeren" id="toc-nieuwe-stijl-installeren" class="nav-link" data-scroll-target="#nieuwe-stijl-installeren">Nieuwe stijl installeren</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/RonaldVisser/Zotero_WC/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -159,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Zotero werkcollege</h1>
+<h1 class="title d-none d-lg-block">Zotero gebruiken voor bibliografische werkzaamheden: bronvermeldingen en literatuurlijst</h1>
 </div>
 
 
@@ -186,9 +190,62 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="zotero" class="level2">
-<h2 class="anchored" data-anchor-id="zotero">Zotero</h2>
-<p>Zotero is bibliografische software. Het wordt ook wel een referentiemanager genoemd. Tegenwoordig kun je er veel meer mee dan alleen het bijhouden van referenties, zoals het opslaan van notities en samenvattingen. Zotero is een onmisbare middel om onderzoek te doen en helpt je om literatuuronderzoek en bronnenonderzoek systematisch bij te houden. Daarnaast kun je ook de databronnen hiermee beheren. Kortom, alle gegevens waar je naar moet kunnen verwijzen kun je hiermee opslaan en opvragen.</p>
+<section id="plugin-voor-word" class="level1">
+<h1>Plugin voor Word</h1>
+<p>Om automatisch bronvermeldingen in te kunnen voegen, moet je eerst de plugin voor Microsoft Word invoegen. Er bestaan ook vergelijkbare plugins voor LibreOffice (<a href="https://nl.libreoffice.org/" class="uri">https://nl.libreoffice.org/</a>) en Google Docs (<a href="https://www.google.com/docs/about/" class="uri">https://www.google.com/docs/about/</a>). Als het goed is zijn deze automatisch geïnstalleerd bij de eerste start van Zotero. Zo niet ga naar <a href="https://www.zotero.org/support/word_processor_integration" class="uri">https://www.zotero.org/support/word_processor_integration</a> en volg de instructies.</p>
+<p>Als de installatie goed gegaan is, zou je bij het openen van Word een nieuw tabblad op het lint moeten kunnen vinden, speciaal voor Zotero (tussen View en Help in):</p>
+<p><img src="images/Word_Zotero_1.png" class="img-fluid"></p>
+</section>
+<section id="invoegen-van-een-verwijzing-in-word" class="level1">
+<h1>Invoegen van een verwijzing in Word</h1>
+<p>Het invoegen van verwijzingen in Word bestaat uit enkele handelingen, maat laten we eerst wat tekst aanmaken. Maak een nieuw Word-document aan en type daarin:</p>
+<p>“Bij Saxion Archeologie gebruiken we voor onderzoek het boek van Nel Verhoeven”.</p>
+<p>Druk daarna op de knop om een citatie in te voegen.</p>
+<p><img src="images/Word_Zotero_add_1.png" class="img-fluid"></p>
+<p>De eerste keer dat je op deze knop drukt, zal Zotero aan je vragen welke stijl je wilt gebruiken voor het citeren. In november 2022 waren er 10,363 verschillende stijlen beschikbaar (<a href="https://www.zotero.org/styles" class="uri">https://www.zotero.org/styles</a>). Er is voor vrijwel ieder wetenschappelijk tijdschrift wel een stijl beschikbaar. De stijlen zijn allemaal <em>open source</em> en worden onderhouden door diverse gebruikers (waaronder ook de auteur van deze les) en beheerders van Zotero via GitHub (<a href="https://github.com/zotero/styles-repo" class="uri">https://github.com/zotero/styles-repo</a>). We gebruiken nu even de APA-stijl (7<sup>e</sup> editie).</p>
+<p><img src="images/Word_Zotero_add_2.png" class="img-fluid"></p>
+<p>De standaardopties zijn meestal prima en die gebruiken we gewoon. Als je naast in Word ook in LibreOffice wilt kunnen werken in hetzelfde document, maak dan gebruik van Bookmarks in plaats van Fields. De instellingen zijn per document, dus in een ander document kun je een nieuwe stijl kiezen.</p>
+<p>Als het goed is zie je het onderstaande rood omlijnde balkje:</p>
+<p><img src="images/Word_Zotero_add_3.png" class="img-fluid"></p>
+<p>Als je nu de naam Verhoeven typt, zul je de publicatie van Nel Verhoeven over Onderzoek vinden. Klik daarop en het kader zal er zo uitzien:</p>
+<p><img src="images/Word_Zotero_add_4.png" class="img-fluid"></p>
+<p>Als je nu op de citatie klikt in dit scherm, kun je ook nog aanvullingen doen:</p>
+<p><img src="images/Word_Zotero_add_5.png" class="img-fluid"></p>
+<p>Je kunt bijvoorbeeld naar specifieke pagina’s verwijzen. Dat hoeft nu niet. Dus ga weer in rode kader staan en druk op Enter. Als je nu in Word kijkt, zul je het volgende zien:</p>
+<p><img src="images/Word_Zotero_add_6.png" class="img-fluid"></p>
+<p>Het document is niet netjes opgemaakt. We voegen even een titel toe: “Oefenen met Zotero” en geven die de opmaak van <em>Heading 1</em>. Onder de geschreven tekst voegen we een nieuw kopje in met “Literatuurlijst” en passen ook de opmaak <em>Heading 1</em> toe.</p>
+<p>Als het goed is, ziet het er nu zo uit:</p>
+<p><img src="images/Word_Zotero_add_7.png" class="img-fluid"></p>
+<p>Zorg nu dat je met de cursor onder Literatuurlijst gaat staan. Ga naar het tabblad Zotero op het <em>Ribbon</em> en druk op <em>Add/Edit Bibliography</em>. De volledige verwijzing naar Verhoeven (2022) wordt nu ingevoerd.</p>
+<p><img src="images/Word_Zotero_add_8.png" class="img-fluid"></p>
+<p>We gaan nog een bron invoegen en daarvoor een stukje tekst:</p>
+<p>“Studenten die afstuderen bij Saxion, maken ook gebruik van dit boek voor hun afstudeeronderzoek. Een voorbeeld van een recente afstudeeronderzoek gaat over een archeologische verwachtingskaart in Suriname .”</p>
+<p>Hier willen we de ingevoerde scriptie over de Warappa-kreek invoegen. Doe dat.</p>
+<p><img src="images/Word_Zotero_add_9.png" class="img-fluid"></p>
+<p>De sortering lijkt wat vreemd, maar Amerikanen sorteren op voorvoegsel van een achternaam en niet op de achternaam zelf.</p>
+<p>We voegen nog een klein beetje tekst toe: “Docenten van Saxion doen ook onderzoek”. We gebruiken daarvoor de publicatie van Ronald Visser die jullie al ingevoerd hebben. Daarnaast hebben we nog twee publicaties nodig, deze zijn te vinden op de volgende webpagina’s : <a href="https://openaccess.leidenuniv.nl/handle/1887/46003%20/">https://openaccess.leidenuniv.nl/handle/1887/46003 /</a> <a href="https://research.vu.nl/en/publications/bataafs-platteland-het-romeinse-nederzettingslandschap-in-het-ned" class="uri">https://research.vu.nl/en/publications/bataafs-platteland-het-romeinse-nederzettingslandschap-in-het-ned</a> . Voeg die toe aan jouw Zotero-bibliotheek en let goed op dat je alle gegevens invoegt. Voeg daarna de verwijzingen toe aan de tekst:</p>
+<p><img src="images/Word_Zotero_add_10.png" class="img-fluid"></p>
+</section>
+<section id="stijl-aanpassen" class="level1">
+<h1>Stijl aanpassen</h1>
+<p>Dat ziet er al goed uit, maar we willen toch niet werken met APA. We gaan daarom de stijl veranderen in Harvard. Kies <em>Document Preferences</em> in het Zotero-tabblad op het <em>Ribbon</em>.</p>
+<p><img src="images/Word_Zotero_style_1.png" class="img-fluid"></p>
+<p>Kies nu de stijl: “Elsevier – Harvard (with titles)”</p>
+<p>Als je nu naar de verwijzingen kijkt, is het meteen aangepast aan deze nieuwe stijl:</p>
+<p><img src="images/Word_Zotero_style_2.png" class="img-fluid"></p>
+</section>
+<section id="nieuwe-stijl-installeren" class="level1">
+<h1>Nieuwe stijl installeren</h1>
+<p>De stijl voor de publicatiewijzer is niet standaard beschikbaar voor Zotero, maar is gemaakt door Ronald Visser. We gaan deze installeren.</p>
+<p>Ga in Zotero in de menubalk naar <em>Edit</em> en kies <em>Preferences</em>. Ga dan naar het tabblad <em>Cite</em></p>
+<p><img src="images/Zotero_add_style_1.png" class="img-fluid"></p>
+<p>Je kunt nu bestaande stijlen toevoegen. Als je op Get <em>Additional Styles…</em> drukt, krijg je het volgende scherm te zien:</p>
+<p><img src="images/Zotero_add_style_2.png" class="img-fluid"></p>
+<p>Je kunt nu uit alle bestaande stijlen kiezen en deze direct installeren. De stijl voor de Publicatiewijzer kun je vinden door te zoeken op Publicatiewijzer. Klik erop om deze te installeren en deze al worden toegevoegd aan de stijlen op jouw computer.</p>
+<p>Pas nu de stijl in het Word-document aan naar de publicatiewijze.</p>
+<p><img src="images/Zotero_add_style_3.png" class="img-fluid"></p>
+<p>Je ziet dat de vermeldingen in de tekst nu ineens voetnoten zijn geworden. De positie van het voetnootnummer is echter anders dan bij verwijzingen in de tekst. Het voetnootnummer komt na de punt, in plaats ervoor. Verplaats dus even 3 puntjes en de tekst is nu aangepast aan de nieuwe stijl.</p>
+<p><img src="images/Zotero_add_style_4.png" class="img-fluid"></p>
 
 
 </section>
@@ -294,10 +351,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./zotero_add.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Gegevens invoegen/opslaan</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./install.html" class="pagination-link">
-        <span class="nav-page-text">Installatie</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./zotero_organize_library.html" class="pagination-link">
+        <span class="nav-page-text">Organiseren van jouw bibliotheek in Zotero</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

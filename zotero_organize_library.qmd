@@ -1,0 +1,19 @@
+---
+title: "Organiseren van jouw bibliotheek in Zotero"
+editor: visual
+author:
+  - name: Ronald Visser
+    orcid: 0000-0001-6966-1729
+    email: r.m.visser@saxion.nl
+    affiliation: 
+      - name: Saxion University of Applied Sciences
+        city: Deventer
+        country: Netherlands
+---
+
+In Zotero kun je ook jouw referenties in mappen of gebruik maken van tags. Hiervoor staat een uitgebreide uitleg online:
+
+<https://www.zotero.org/support/collections_and_tags>
+
+Dit maakt het handig om bepaalde publicaties snel te vinden, zeker wanneer je tientallen of honderden publicaties hebt verzameld.
+
