@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "about",
     "section": "",
-    "text": "Deze website is gemaakt als tutorial voor het werken met Zotero. De oorspronkelijke doelgroep zijn de studenten van de opleiding Archeologie bij Saxion, maar het is ook geschikt voor anderen."
+    "text": "Deze website is gemaakt als tutorial voor het werken met Zotero. De oorspronkelijke doelgroep zijn de studenten van de opleiding Archeologie bij Saxion, maar het is ook geschikt voor anderen.\nDit tutorial is gebruikt als basis voor deze website: https://openscapes.github.io/quarto-website-tutorial/ (https://github.com/Openscapes/quarto-website-tutorial)."
   },
   {
     "objectID": "about.html#running-code",
@@ -67,6 +67,6 @@
     "href": "zotero_research_tool.html",
     "title": "Onderzoek met Zotero",
     "section": "",
-    "text": "https://www.zotero.org/support/notes\nOok is het mogelijk om PDF's binnen Zotero te lezen en te annoteren:\nhttps://www.zotero.org/support/pdf_reader\nJe kunt ook citaten naar de notes kopiëren en Zotero neemt dan de bronvermelding mee."
+    "text": "https://www.zotero.org/support/notes\nOok is het mogelijk om PDF’s binnen Zotero te lezen en te annoteren:\nhttps://www.zotero.org/support/pdf_reader\nJe kunt ook citaten naar de notes kopiëren en Zotero neemt dan de bronvermelding mee."
   }
 ]

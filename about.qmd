@@ -7,3 +7,5 @@ editor: visual
 ## About
 
 Deze website is gemaakt als tutorial voor het werken met Zotero. De oorspronkelijke doelgroep zijn de studenten van de [opleiding Archeologie bij Saxion](https://www.saxion.nl/opleidingen/voltijd/bachelor/archeologie), maar het is ook geschikt voor anderen.
+
+Dit tutorial is gebruikt als basis voor deze website: <https://openscapes.github.io/quarto-website-tutorial/> (<https://github.com/Openscapes/quarto-website-tutorial>).
