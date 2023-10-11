@@ -1,10 +1,8 @@
 ---
-title: "about"
+title: "Over deze website"
 format: html
 editor: visual
 ---
-
-## About
 
 Deze website is gemaakt als tutorial voor het werken met Zotero. De oorspronkelijke doelgroep zijn de studenten van de [opleiding Archeologie bij Saxion](https://www.saxion.nl/opleidingen/voltijd/bachelor/archeologie), maar het is ook geschikt voor anderen.
 

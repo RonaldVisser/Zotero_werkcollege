@@ -1,1 +1,1 @@
-Sitemap: ..../sitemap.xml
+Sitemap: https://ronaldvisser.github.io/Zotero_WC/sitemap.xml
