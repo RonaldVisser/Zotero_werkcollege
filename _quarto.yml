@@ -29,7 +29,7 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Welkom
+        text: Start
       - href: install.qmd
         text: Installatie
       - href: zotero_start.qmd
