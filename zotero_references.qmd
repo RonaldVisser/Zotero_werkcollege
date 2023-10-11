@@ -71,7 +71,13 @@ Hier willen we de ingevoerde scriptie over de Warappa-kreek invoegen. Doe dat.
 
 De sortering lijkt wat vreemd, maar Amerikanen sorteren op voorvoegsel van een achternaam en niet op de achternaam zelf.
 
-We voegen nog een klein beetje tekst toe: "Docenten van Saxion doen ook onderzoek". We gebruiken daarvoor de publicatie van Ronald Visser die jullie al ingevoerd hebben. Daarnaast hebben we nog twee publicaties nodig, deze zijn te vinden op de volgende webpagina's : [https://openaccess.leidenuniv.nl/handle/1887/46003 /](https://openaccess.leidenuniv.nl/handle/1887/46003%20/) <https://research.vu.nl/en/publications/bataafs-platteland-het-romeinse-nederzettingslandschap-in-het-ned> . Voeg die toe aan jouw Zotero-bibliotheek en let goed op dat je alle gegevens invoegt. Voeg daarna de verwijzingen toe aan de tekst:
+We voegen nog een klein beetje tekst toe: "Docenten van Saxion doen ook onderzoek". We gebruiken daarvoor de publicatie van Ronald Visser die jullie al ingevoerd hebben. Daarnaast hebben we nog twee publicaties nodig, deze zijn te vinden op de volgende webpagina's :
+
+-   [https://openaccess.leidenuniv.nl/handle/1887/46003 /](https://openaccess.leidenuniv.nl/handle/1887/46003%20/)
+
+-   <https://research.vu.nl/en/publications/bataafs-platteland-het-romeinse-nederzettingslandschap-in-het-ned> .
+
+Voeg die toe aan jouw Zotero-bibliotheek en let goed op dat je alle gegevens invoegt. Voeg daarna de verwijzingen toe aan de tekst:
 
 ![](images/Word_Zotero_add_10.png)
 
