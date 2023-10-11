@@ -4,15 +4,16 @@ project:
 website:
   page-navigation: true
   title: "Met Zotero leren werken"
-  site-url: "...."
+  site-url: "https://ronaldvisser.github.io/Zotero_WC/"
   repo-url: https://github.com/RonaldVisser/Zotero_WC
   repo-actions: [issue]
 
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; CC-By Ronald Visser, 2023"
+    left: "&copy; CC-By-NC Ronald Visser, 2023"
 
   sidebar:
+    logo: "images/jubileumlogoplussaxion-staand-nl_rgb.jpg"
     pinned: true
     align: center
     tools:
