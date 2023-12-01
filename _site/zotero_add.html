@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ronald Visser">
+<meta name="author" content="Loes Opgenhaffen">
 
 <title>Met Zotero leren werken - Gegevens invoeren/opslaan in Zotero</title>
 <style>
@@ -154,10 +155,15 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#boek-invoeren" id="toc-boek-invoeren" class="nav-link active" data-scroll-target="#boek-invoeren">Boek invoeren</a></li>
   <li><a href="#tijdschriftartikel-invoeren" id="toc-tijdschriftartikel-invoeren" class="nav-link" data-scroll-target="#tijdschriftartikel-invoeren">Tijdschriftartikel invoeren</a></li>
   <li><a href="#artikel-in-bundel-invoeren" id="toc-artikel-in-bundel-invoeren" class="nav-link" data-scroll-target="#artikel-in-bundel-invoeren">Artikel in bundel invoeren</a></li>
-  <li><a href="#scriptie-invoeren" id="toc-scriptie-invoeren" class="nav-link" data-scroll-target="#scriptie-invoeren">Scriptie invoeren</a></li>
-  <li><a href="#dataset-invoegen" id="toc-dataset-invoegen" class="nav-link" data-scroll-target="#dataset-invoegen">Dataset invoegen</a></li>
   <li><a href="#automatisch-invoegen-vanaf-websites" id="toc-automatisch-invoegen-vanaf-websites" class="nav-link" data-scroll-target="#automatisch-invoegen-vanaf-websites">Automatisch invoegen vanaf websites</a></li>
+  <li><a href="#naam-van-een-pdf-aanpassen" id="toc-naam-van-een-pdf-aanpassen" class="nav-link" data-scroll-target="#naam-van-een-pdf-aanpassen">Naam van een PDF aanpassen</a></li>
+  <li><a href="#automatisch-invoegen-vanaf-websites-2" id="toc-automatisch-invoegen-vanaf-websites-2" class="nav-link" data-scroll-target="#automatisch-invoegen-vanaf-websites-2">Automatisch invoegen vanaf websites: 2</a></li>
+  <li><a href="#de-export-citation-functie" id="toc-de-export-citation-functie" class="nav-link" data-scroll-target="#de-export-citation-functie">De <em>export citation</em> functie</a></li>
+  <li><a href="#automatisch-invoegen-met-een-doi" id="toc-automatisch-invoegen-met-een-doi" class="nav-link" data-scroll-target="#automatisch-invoegen-met-een-doi">Automatisch invoegen met een DOI</a></li>
   <li><a href="#automatisch-invoegen-met-een-isbn" id="toc-automatisch-invoegen-met-een-isbn" class="nav-link" data-scroll-target="#automatisch-invoegen-met-een-isbn">Automatisch invoegen met een ISBN</a></li>
+  <li><a href="#extra-oefenen-scriptie-invoeren" id="toc-extra-oefenen-scriptie-invoeren" class="nav-link" data-scroll-target="#extra-oefenen-scriptie-invoeren">Extra oefenen: scriptie invoeren</a></li>
+  <li><a href="#extra-oefenen-dataset-invoegen" id="toc-extra-oefenen-dataset-invoegen" class="nav-link" data-scroll-target="#extra-oefenen-dataset-invoegen">Extra oefenen: dataset invoegen</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/RonaldVisser/Zotero_WC/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -171,11 +177,19 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Authors</div>
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
     Ronald Visser <a href="https://orcid.org/0000-0001-6966-1729" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Saxion University of Applied Sciences
+          </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+    Loes Opgenhaffen <a href="https://orcid.org/0000-0001-8940-8878" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
   </div>
     <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -239,21 +253,6 @@ ul.task-list li input[type="checkbox"] {
 <p>Het eindresultaat zal er ongeveer zo uitzien:</p>
 <p><img src="images/Zotero_add_book_article_2.png" class="img-fluid"></p>
 </section>
-<section id="scriptie-invoeren" class="level1">
-<h1>Scriptie invoeren</h1>
-<p>We gaan nu een scriptie invoeren. Hiervoor zoek je een scriptie van de opleiding Archeologie in de HBO-kennisbank: <a href="https://www.hbo-kennisbank.nl/" class="uri">https://www.hbo-kennisbank.nl/</a>. Voor het voorbeeld maken we gebruik van het afstudeerwerkstuk van Hinke van de Werf (<a href="https://www.hbo-kennisbank.nl/details/saxionhogeschool:A0501F4C-6152-4B80-ABD265BC5B77781E" class="uri">https://www.hbo-kennisbank.nl/details/saxionhogeschool:A0501F4C-6152-4B80-ABD265BC5B77781E</a>), maar je mag ook een ander werkstuk gebruiken.&nbsp;</p>
-<p>Om een scriptie in te voeren, kies je weer <em>new item</em> en dan <em>More</em> en dan <em>Thesis</em>.</p>
-<p><img src="images/Zotero_add_thesis_1.png" class="img-fluid"></p>
-<p>Het eindresultaat zal er dan ongeveer zo uitzien:</p>
-<p><img src="images/Zotero_add_thesis_2.png" class="img-fluid"></p>
-</section>
-<section id="dataset-invoegen" class="level1">
-<h1>Dataset invoegen</h1>
-<p>We gaan nu een gegevensset invoegen. Hiervoor gebruiken we een dataset over de Bronstijd in Kennemerland: <a href="https://doi.org/10.17026/dans-283-jvuz" class="uri">https://doi.org/10.17026/dans-283-jvuz</a>. Hier zien we dat deze dataset gemaakt is door Jos Kleijne en er is een samenvatting. Het jaar van publicatie is ook vermeld.</p>
-<p>Om een dataset in te voeren, kies je weer <em>new item</em> en dan <em>Journal Article</em>. Dit lijkt wat vreemd, maar dat komt omdat het dataset-type nog niet bestaat in Zotero. Dat komt wel en dat lossen we nu anders op. Dit doen we door in het veld Extra: “Type: dataset” in te voeren (zonder aanhalingstekens).</p>
-<p>Hieronder staat een screenshot van hoe het er uit zo moeten zien in Zotero:</p>
-<p><img src="images/Zotero_add_data_1.png" class="img-fluid"></p>
-</section>
 <section id="automatisch-invoegen-vanaf-websites" class="level1">
 <h1>Automatisch invoegen vanaf websites</h1>
 <p>We hebben tot dusver alles handmatig ingevoerd, maar gelukkig kan het ook automatisch, mits en website geschikt is daarvoor. We kunnen dat pas doen als er een connector is geïnstalleerd. Deze kun je met jouw internetbrowser (Firefox of Chrome) installeren vanaf: <a href="https://www.zotero.org/download/" class="uri">https://www.zotero.org/download/</a></p>
@@ -261,6 +260,9 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/Zotero_add_journal_article_online_1.png" class="img-fluid"></p>
 <p>Klik dan op het artikel icoontje en het artikel is aan jouw bibliotheek toegevoegd.</p>
 <p><img src="images/Zotero_add_journal_article_online_2.png" class="img-fluid"></p>
+</section>
+<section id="naam-van-een-pdf-aanpassen" class="level1">
+<h1>Naam van een PDF aanpassen</h1>
 <p>Het vervelende is dat de naam van het bestand (PDF) niet heel duidelijk is. Dat kun je automatisch laten aanpassen. Ga naar Edit – Preferences:</p>
 <p><img src="images/Zotero_add_journal_article_online_3.png" class="img-fluid"></p>
 <p>En zet het vinkje aan bij Rename linked files:</p>
@@ -270,6 +272,40 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/Zotero_add_journal_article_online_5.png" class="img-fluid"></p>
 <p>Op deze laatste manier heb je zowel de bibliografische gegevens in jouw systeem staan, als ook de PDF-bestanden. Hierdoor kun je in Zotero niet alleen de beschrijvingen vinden, maar ook de bijhorende artikelen of boeken. Je kunt aan ieder <em>item</em> meerdere bestanden koppelen als je dat wilt.</p>
 </section>
+<section id="automatisch-invoegen-vanaf-websites-2" class="level1">
+<h1>Automatisch invoegen vanaf websites: 2</h1>
+<p>Probeer nu onderstaand artikel toe te voegen via de Zotero Connector (het puzzelstukje in de browser):</p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S2212054822000200" class="uri">https://www.sciencedirect.com/science/article/pii/S2212054822000200</a></p>
+<p>Controleer nu in Zotero alle gegevens correct en volledig staan genoteerd. Ontbreekt er iets? Vul dit dan nu handmatig aan.</p>
+<p><em>Bij Zotero- en automatische cite-downloads dus <strong>ALTIJD</strong> contoleren op volledigheid en juistheid. Het komt best vaak voor dat er een plaatsnaam, uitgever of wat dan ook ontbreekt.</em></p>
+</section>
+<section id="de-export-citation-functie" class="level1">
+<h1>De <em>export citation</em> functie</h1>
+<p>Stel, de Zotero connector doet het niet. Dan is er gelukkig de ‘export citation (to RIS/BibTeX, etc.)’, die je in veel journals en bibliotheek-catalogi hebt zitten.</p>
+<p>Zoek onderstaande link op:</p>
+<p><a href="https://www.degruyter.com/document/doi/10.1515/opar-2020-0138/html" class="uri">https://www.degruyter.com/document/doi/10.1515/opar-2020-0138/html</a></p>
+<p>Klik op de ‘Cite this’ knop.</p>
+<p><img src="images/Export_Citation_1.png" class="img-fluid"></p>
+<p>Kies in het volgende pop-up venster de optie 'RIS'.</p>
+<p><img src="images/Export_Citation_2.png" class="img-fluid"></p>
+<p>Er verschijnt nu een opslaan/save-venster. Sla de citatie/RIS op een logische plek op, bijvoorbeeld onder Week 3 van het TB Uitwerken sporen en structuren. Klik op 'Next'.</p>
+<p>Ga nu naar Zotero, klik op File&gt;Import. In het daaropvolgende Import-venster wordt gevraagd waarvandaan je wil importeren. Jij wil de bovenste optie en klik op 'Next'. In het volgende Import/Options venster vraagt Zotero ook vanalles, maar klik gewoon op 'Next' (zie screenshots hieronder).</p>
+<p><img src="images/Export_Citation_3.png" class="img-fluid" width="496"></p>
+<p><img src="images/Export_Citation_4.png" class="img-fluid"></p>
+<p>Er is nu een mapje toegevoegd aan je Zotero-collectie (in het linkervenster, de bibliotheek). In het middelste venster (de bronnen) zie je de titel van jouw net geïmporteerde bron staan. Sleep deze titel nu in de relevante collectie in de bibliotheek, in het voorbeeld hieronder bijvoorbeeld in de map 'Digital Archaeology'.</p>
+<p><img src="images/Export_Citation_5.png" class="img-fluid"></p>
+<p>Controleer nog even of de juiste gegevens in het overzicht van de bron staan. Klopt alles? En staat de bron in de juiste collectie/map in de bibliotheek? Verwijder dan het downloadmapje met de citatie uit de bibliotheek, zo hou je de bibliotheek overzichtelijk en opgeruimd.</p>
+</section>
+<section id="automatisch-invoegen-met-een-doi" class="level1">
+<h1>Automatisch invoegen met een DOI</h1>
+<p>DOI's worden steeds belangrijker. Een DOI, een Digital Object Identifier, is een soort van URL waardoor de bron makkelijk op het internet te vinden is. Een DOI kan er voor zeer veel soorten bronnen zijn, niet alleen voor wetenschappelijke artikelen of boeken, maar ook voor datasets en andere bronnen die anders misschien geen auteursrechtelijke bescherming genieten, maar wel nuttig zijn voor je onderzoek.</p>
+<p>Een DOI is ook makkelijk om alle broninformatie te importeren in Zotero. Dat doe je door in het ribbon op het toverstafje met het groene plusje te klikken. Zorg ervoor dat je in de bibliotheek (linkervenster) de juiste collectie/map hebt geselecteerd waar je deze bron in wil hebben.</p>
+<p>Vul hier nu de onderstaande DOI in:</p>
+<p><a href="https://doi.org/10.1146/annurev-anthro-041320-114101" class="uri">https://doi.org/10.1146/annurev-anthro-041320-114101</a></p>
+<p><img src="images/DOI_1.png" class="img-fluid" width="575"></p>
+<p>Druk op Enter. Meteen verschijnt de bron in de collectie en alle broninformatie in het rechtervenster.</p>
+<p>Het gaat om het wetenschappelijke artikel 'Current Digital Archaeology' van Colleen Morgan. Controleer nu of alle gegevens wel in de broninformatie staat, zoals jaartal, plaatsnaam, auteur/editor, etc.</p>
+</section>
 <section id="automatisch-invoegen-met-een-isbn" class="level1">
 <h1>Automatisch invoegen met een ISBN</h1>
 <p>Het is ook mogelijk om een boek in te voegen als je het ISBN weet. Zo is onlangs een mooie dubbel biografie verschenen van Leo Verhart over Holwerda en Van Giffen (<a href="https://www.matrijs.com/Parallelle-sporen.-Een-dubbelbiografie-over-de-archeologen-Jan-Hendrik-Holwerda-1873-1951-en-Albert-Egges-van-Giffen-1884-1973.html" class="uri">https://www.matrijs.com/Parallelle-sporen.-Een-dubbelbiografie-over-de-archeologen-Jan-Hendrik-Holwerda-1873-1951-en-Albert-Egges-van-Giffen-1884-1973.html</a>). Het ISBN van dit boek is: 978-90-5345-586-9.</p>
@@ -278,6 +314,24 @@ ul.task-list li input[type="checkbox"] {
 <p>Controleer goed of alle gegevens goed zijn ingevoerd, want dit gaat niet altijd helemaal goed. Controleer spelling of andere fouten.</p>
 <p><img src="images/Zotero_add_ISBN_2.png" class="img-fluid"></p>
 <p><a href="#_ftnref1">[1]</a> Het invoegen van een ISBN kan op verschillende manieren. In dit geval maakt het niet uit of je nu 978-90-5345-586-9, 978 90 5345 586 9 of 9789053455869 invoert, want op alle manieren zal hetzelfde boek in Zotero aan jouw bibliotheek worden toegevoegd.</p>
+</section>
+<section id="extra-oefenen-scriptie-invoeren" class="level1">
+<h1>Extra oefenen: scriptie invoeren</h1>
+<p>We gaan nu een scriptie invoeren. Hiervoor zoek je een scriptie van de opleiding Archeologie in de HBO-kennisbank: <a href="https://www.hbo-kennisbank.nl/" class="uri">https://www.hbo-kennisbank.nl/</a>. Voor het voorbeeld maken we gebruik van het afstudeerwerkstuk van Hinke van de Werf (<a href="https://www.hbo-kennisbank.nl/details/saxionhogeschool:A0501F4C-6152-4B80-ABD265BC5B77781E" class="uri">https://www.hbo-kennisbank.nl/details/saxionhogeschool:A0501F4C-6152-4B80-ABD265BC5B77781E</a>), maar je mag ook een ander werkstuk gebruiken.&nbsp;</p>
+<p>Om een scriptie in te voeren, kies je weer <em>new item</em> en dan <em>More</em> en dan <em>Thesis</em>.</p>
+<p><img src="images/Zotero_add_thesis_1.png" class="img-fluid"></p>
+<p>Het eindresultaat zal er dan ongeveer zo uitzien:</p>
+<p><img src="images/Zotero_add_thesis_2.png" class="img-fluid"></p>
+</section>
+<section id="extra-oefenen-dataset-invoegen" class="level1">
+<h1>Extra oefenen: dataset invoegen</h1>
+<p>We gaan nu een gegevensset invoegen. Hiervoor gebruiken we een dataset over de Bronstijd in Kennemerland: <a href="https://doi.org/10.17026/dans-283-jvuz" class="uri">https://doi.org/10.17026/dans-283-jvuz</a>. Hier zien we dat deze dataset gemaakt is door Jos Kleijne en er is een samenvatting. Het jaar van publicatie is ook vermeld.</p>
+<p>Om een dataset in te voeren, kies je weer <em>new item</em> en dan <em>Journal Article</em>. Dit lijkt wat vreemd, maar dat komt omdat het dataset-type nog niet bestaat in Zotero. Dat komt wel en dat lossen we nu anders op. Dit doen we door in het veld Extra: “Type: dataset” in te voeren (zonder aanhalingstekens).</p>
+<p>Hieronder staat een screenshot van hoe het er uit zo moeten zien in Zotero:</p>
+<p><img src="images/Zotero_add_data_1.png" class="img-fluid"></p>
+</section>
+<section id="section" class="level1">
+<h1></h1>
 
 
 </section>
