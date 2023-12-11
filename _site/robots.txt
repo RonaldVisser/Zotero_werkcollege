@@ -1,1 +1,1 @@
-Sitemap: https://ronaldvisser.github.io/Zotero_WC/sitemap.xml
+Sitemap: https://peaceful-semolina-4e5cad.netlify.app/sitemap.xml

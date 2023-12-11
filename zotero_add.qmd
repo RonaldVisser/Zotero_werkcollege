@@ -136,19 +136,19 @@ Klik op de 'Cite this' knop.
 
 ![](images/Export_Citation_1.png)
 
-Kies in het volgende pop-up venster de optie \'RIS\'.
+Kies in het volgende pop-up venster de optie 'RIS'.
 
 ![](images/Export_Citation_2.png)
 
-Er verschijnt nu een opslaan/save-venster. Sla de citatie/RIS op een logische plek op, bijvoorbeeld onder Week 3 van het TB Uitwerken sporen en structuren. Klik op \'Next\'.
+Er verschijnt nu een opslaan/save-venster. Sla de citatie/RIS op een logische plek op, bijvoorbeeld onder Week 3 van het TB Uitwerken sporen en structuren. Klik op 'Next'.
 
-Ga nu naar Zotero, klik op File\>Import. In het daaropvolgende Import-venster wordt gevraagd waarvandaan je wil importeren. Jij wil de bovenste optie en klik op \'Next\'. In het volgende Import/Options venster vraagt Zotero ook vanalles, maar klik gewoon op \'Next\' (zie screenshots hieronder).
+Ga nu naar Zotero, klik op File\>Import. In het daaropvolgende Import-venster wordt gevraagd waarvandaan je wil importeren. Jij wil de bovenste optie en klik op 'Next'. In het volgende Import/Options venster vraagt Zotero ook vanalles, maar klik gewoon op 'Next' (zie screenshots hieronder).
 
 ![](images/Export_Citation_3.png){width="496"}
 
 ![](images/Export_Citation_4.png)
 
-Er is nu een mapje toegevoegd aan je Zotero-collectie (in het linkervenster, de bibliotheek). In het middelste venster (de bronnen) zie je de titel van jouw net geïmporteerde bron staan. Sleep deze titel nu in de relevante collectie in de bibliotheek, in het voorbeeld hieronder bijvoorbeeld in de map \'Digital Archaeology\'.
+Er is nu een mapje toegevoegd aan je Zotero-collectie (in het linkervenster, de bibliotheek). In het middelste venster (de bronnen) zie je de titel van jouw net geïmporteerde bron staan. Sleep deze titel nu in de relevante collectie in de bibliotheek, in het voorbeeld hieronder bijvoorbeeld in de map 'Digital Archaeology'.
 
 ![](images/Export_Citation_5.png)
 
@@ -156,7 +156,7 @@ Controleer nog even of de juiste gegevens in het overzicht van de bron staan. Kl
 
 # Automatisch invoegen met een DOI
 
-DOI\'s worden steeds belangrijker. Een DOI, een Digital Object Identifier, is een soort van URL waardoor de bron makkelijk op het internet te vinden is. Een DOI kan er voor zeer veel soorten bronnen zijn, niet alleen voor wetenschappelijke artikelen of boeken, maar ook voor datasets en andere bronnen die anders misschien geen auteursrechtelijke bescherming genieten, maar wel nuttig zijn voor je onderzoek.
+DOI's worden steeds belangrijker. Een DOI, een Digital Object Identifier, is een soort van URL waardoor de bron makkelijk op het internet te vinden is. Een DOI kan er voor zeer veel soorten bronnen zijn, niet alleen voor wetenschappelijke artikelen of boeken, maar ook voor datasets en andere bronnen die anders misschien geen auteursrechtelijke bescherming genieten, maar wel nuttig zijn voor je onderzoek.
 
 Een DOI is ook makkelijk om alle broninformatie te importeren in Zotero. Dat doe je door in het ribbon op het toverstafje met het groene plusje te klikken. Zorg ervoor dat je in de bibliotheek (linkervenster) de juiste collectie/map hebt geselecteerd waar je deze bron in wil hebben.
 
@@ -168,7 +168,7 @@ Vul hier nu de onderstaande DOI in:
 
 Druk op Enter. Meteen verschijnt de bron in de collectie en alle broninformatie in het rechtervenster.
 
-Het gaat om het wetenschappelijke artikel \'Current Digital Archaeology\' van Colleen Morgan. Controleer nu of alle gegevens wel in de broninformatie staat, zoals jaartal, plaatsnaam, auteur/editor, etc.
+Het gaat om het wetenschappelijke artikel 'Current Digital Archaeology' van Colleen Morgan. Controleer nu of alle gegevens wel in de broninformatie staat, zoals jaartal, plaatsnaam, auteur/editor, etc.
 
 # Automatisch invoegen met een ISBN
 
