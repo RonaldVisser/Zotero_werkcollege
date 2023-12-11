@@ -9,6 +9,7 @@ author:
       - name: Saxion University of Applied Sciences
         city: Deventer
         country: Netherlands
+date: today
 ---
 
 Om met Zotero te kunnen werken moet je het eerst installeren. Zotero is Open Source software. In het Engels wordt dat ook wel "*Free and open-source software (FOSS)*" genoemd. Doordat het vrij en open is, kan iedereen het kosteloos installeren.
@@ -42,3 +43,4 @@ Om met Zotero te kunnen werken moet je het eerst installeren. Zotero is Open Sou
 9.  Kies daarna Finish/Klaar.
 
     ![](images/Install_6.png)
+

@@ -15,6 +15,7 @@ author:
       - name: Saxion University of Applied Sciences
         city: Deventer
         country: Netherlands
+date: today
 ---
 
 Deze website is een werkcollege gemaakt voor de opleiding [Archeologie](https://www.saxion.nl/opleidingen/voltijd/bachelor/archeologie) bij [Saxion](https://www.saxion.nl/). Het doel van deze les is leren werken met [Zotero](https://www.zotero.org/).
@@ -34,3 +35,4 @@ De onderstaande video laat Zotero in het gebruik zien, als je een idee wil krijg
 <iframe id="kaltura_player" type="text/javascript" src="https://cdnapisec.kaltura.com/p/1488881/embedPlaykitJs/uiconf_id/52267962?iframeembed=true&amp;entry_id=1_0o0aknxo&amp;config[provider]={&quot;widgetId&quot;:&quot;1_ukywuy85&quot;}&amp;config[playback]={&quot;startTime&quot;:0}" style="width: 608px;height: 378px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Zotero (2) praktisch">
 
 </iframe>
+

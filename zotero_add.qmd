@@ -16,6 +16,7 @@ author:
       - name: Saxion University of Applied Sciences
         city: Deventer
         country: Netherlands
+date: today
 ---
 
 Het is belangrijk dat gegevens op de juiste manier in Zotero komen, want deze hebben we nodig om er uiteindelijk naar te kunnen verwijzen, zodat ons onderzoek herleidbaar en reproduceerbaar wordt.

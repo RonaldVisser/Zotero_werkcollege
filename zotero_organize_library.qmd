@@ -9,6 +9,7 @@ author:
       - name: Saxion University of Applied Sciences
         city: Deventer
         country: Netherlands
+date: today
 ---
 
 In Zotero kun je ook jouw referenties in mappen of gebruik maken van tags. Hiervoor staat een uitgebreide uitleg online:
@@ -16,3 +17,4 @@ In Zotero kun je ook jouw referenties in mappen of gebruik maken van tags. Hierv
 <https://www.zotero.org/support/collections_and_tags>
 
 Dit maakt het handig om bepaalde publicaties snel te vinden, zeker wanneer je tientallen of honderden publicaties hebt verzameld.
+

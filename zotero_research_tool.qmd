@@ -9,6 +9,7 @@ author:
       - name: Saxion University of Applied Sciences
         city: Deventer
         country: Netherlands
+date: today
 ---
 
 In Zotero kun je ook notities of samenvattingen opslaan bij een bron. Hiervoor staat een uitgebreide uitleg online:
@@ -20,3 +21,4 @@ Ook is het mogelijk om PDF's binnen Zotero te lezen en te annoteren:
 <https://www.zotero.org/support/pdf_reader>
 
 Je kunt ook citaten naar de notes kopiëren en Zotero neemt dan de bronvermelding mee.
+

@@ -2,8 +2,25 @@
 title: "Over deze website"
 format: html
 editor: visual
+date: today
+author:
+  - name: Ronald Visser
+    orcid: 0000-0001-6966-1729
+    email: r.m.visser@saxion.nl
+    affiliation: 
+      - name: Saxion University of Applied Sciences
+        city: Deventer
+        country: Netherlands
+  - name: Loes Opgenhaffen
+    orcid: 0000-0001-8940-8878
+    email: l.opgenhaffen@saxion.nl
+    affiliation: 
+      - name: Saxion University of Applied Sciences
+        city: Deventer
+        country: Netherlands
 ---
 
 Deze website is gemaakt als tutorial voor het werken met Zotero. De oorspronkelijke doelgroep zijn de studenten van de [opleiding Archeologie bij Saxion](https://www.saxion.nl/opleidingen/voltijd/bachelor/archeologie), maar het is ook geschikt voor anderen.
 
 Dit tutorial is gebruikt als basis voor deze website: <https://openscapes.github.io/quarto-website-tutorial/> (<https://github.com/Openscapes/quarto-website-tutorial>).
+

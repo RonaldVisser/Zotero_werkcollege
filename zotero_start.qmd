@@ -9,6 +9,7 @@ author:
       - name: Saxion University of Applied Sciences
         city: Deventer
         country: Netherlands
+date: today
 ---
 
 Na de laatste stap van de installatie zal Zotero automatisch opstarten als je op *Finish* hebt gedrukt, zo niet start Zotero op. De eerste keer zal Zotero er als volgt uitzien (en bij opstarten worden de plugins voor Word automatisch geïnstalleerd):
@@ -24,3 +25,4 @@ Er staat nog niets in het programma, maar belangrijk om te weten is dat het prog
 -   Informatie over een bron
 
 ![](images/Zotero_start_2.png)
+
