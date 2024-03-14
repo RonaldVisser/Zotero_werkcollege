@@ -7,6 +7,8 @@ website:
   site-url: "https://ronaldvisser.github.io/Zotero_WC/"
   repo-url: https://github.com/RonaldVisser/Zotero_WC
   repo-actions: [issue]
+  google-analytics: G-FHNQPLQ4WQ
+  cookie-consent: TRUE
 
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
