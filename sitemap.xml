@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ronaldvisser.github.io/Zotero_WC/zotero_add.html</loc>
-    <lastmod>2023-12-11T12:50:40.661Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ronaldvisser.github.io/Zotero_WC/zotero_organize_library.html</loc>
-    <lastmod>2023-12-11T12:50:39.857Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ronaldvisser.github.io/Zotero_WC/zotero_references.html</loc>
-    <lastmod>2023-12-11T12:50:39.349Z</lastmod>
+    <loc>https://ronaldvisser.github.io/Zotero_WC/index.html</loc>
+    <lastmod>2024-03-14T19:07:20.909Z</lastmod>
   </url>
   <url>
     <loc>https://ronaldvisser.github.io/Zotero_WC/zotero_start.html</loc>
-    <lastmod>2023-12-11T12:50:38.349Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ronaldvisser.github.io/Zotero_WC/index.html</loc>
-    <lastmod>2023-12-11T12:50:37.802Z</lastmod>
+    <lastmod>2024-03-14T19:07:20.913Z</lastmod>
   </url>
   <url>
     <loc>https://ronaldvisser.github.io/Zotero_WC/zotero_online.html</loc>
-    <lastmod>2023-12-11T12:50:37.226Z</lastmod>
+    <lastmod>2024-03-14T19:07:20.913Z</lastmod>
   </url>
   <url>
-    <loc>https://ronaldvisser.github.io/Zotero_WC/about.html</loc>
-    <lastmod>2023-12-11T12:50:38.082Z</lastmod>
+    <loc>https://ronaldvisser.github.io/Zotero_WC/zotero_add.html</loc>
+    <lastmod>2024-03-14T19:07:20.913Z</lastmod>
   </url>
   <url>
     <loc>https://ronaldvisser.github.io/Zotero_WC/LICENSE-CC-BY-NC-ND-4.0.html</loc>
-    <lastmod>2023-12-11T12:50:38.941Z</lastmod>
+    <lastmod>2024-03-14T19:07:20.873Z</lastmod>
   </url>
   <url>
     <loc>https://ronaldvisser.github.io/Zotero_WC/zotero_research_tool.html</loc>
-    <lastmod>2023-12-11T12:50:39.601Z</lastmod>
+    <lastmod>2024-03-14T19:07:20.913Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ronaldvisser.github.io/Zotero_WC/zotero_organize_library.html</loc>
+    <lastmod>2024-03-14T19:07:20.913Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ronaldvisser.github.io/Zotero_WC/zotero_references.html</loc>
+    <lastmod>2024-03-14T19:07:20.913Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ronaldvisser.github.io/Zotero_WC/about.html</loc>
+    <lastmod>2024-03-14T19:07:20.893Z</lastmod>
   </url>
   <url>
     <loc>https://ronaldvisser.github.io/Zotero_WC/install.html</loc>
-    <lastmod>2023-12-11T12:50:40.153Z</lastmod>
+    <lastmod>2024-03-14T19:07:20.913Z</lastmod>
   </url>
 </urlset>
