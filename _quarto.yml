@@ -25,7 +25,6 @@ website:
       - icon: mastodon
         href: https://akademienl.social/@RonaldVisser
         text: "Mastodon"
-
     style: "docked"
     search: true
     collapse-level: 1
@@ -49,9 +48,6 @@ website:
       - href: about.qmd
         text: Over deze website
 
-
-
-
 format:
   html:
     theme:
@@ -59,7 +55,6 @@ format:
     code-copy: true
     code-overflow: wrap
     toc: true
-
 
 filters:
   - quarto

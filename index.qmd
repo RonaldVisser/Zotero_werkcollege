@@ -26,13 +26,9 @@ Zotero is bibliografische software. Het wordt ook wel een referentiemanager geno
 
 Video met korte uitleg over wat Zotero is:
 
-<iframe id="kaltura_player" type="text/javascript" src="https://cdnapisec.kaltura.com/p/1488881/embedPlaykitJs/uiconf_id/52267962?iframeembed=true&amp;entry_id=1_kxzxk0zi&amp;config[provider]={&quot;widgetId&quot;:&quot;1_375t3i8d&quot;}&amp;config[playback]={&quot;startTime&quot;:0}" style="width: 608px;height: 378px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Zotero (1) Uitleg">
-
-</iframe>
+<iframe id="kaltura_player" type="text/javascript"  src='https://api.frp2.ovp.kaltura.com/p/10345/embedPlaykitJs/uiconf_id/23456908?iframeembed=true&entry_id=0_yd4zxbuw&config[provider]={"widgetId":"0_kkc97bzq"}'  style="width: 720px;height: 405px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Kaltura Player"></iframe>
 
 De onderstaande video laat Zotero in het gebruik zien, als je een idee wil krijgen van de mogelijkheden.
 
-<iframe id="kaltura_player" type="text/javascript" src="https://cdnapisec.kaltura.com/p/1488881/embedPlaykitJs/uiconf_id/52267962?iframeembed=true&amp;entry_id=1_0o0aknxo&amp;config[provider]={&quot;widgetId&quot;:&quot;1_ukywuy85&quot;}&amp;config[playback]={&quot;startTime&quot;:0}" style="width: 608px;height: 378px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Zotero (2) praktisch">
-
-</iframe>
+<iframe id="kaltura_player" type="text/javascript"  src='https://api.frp2.ovp.kaltura.com/p/10345/embedPlaykitJs/uiconf_id/23456908?iframeembed=true&entry_id=0_je76zm06&config[provider]={"widgetId":"0_ks9wr0zs"}'  style="width: 720px;height: 405px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Kaltura Player"></iframe>
 
